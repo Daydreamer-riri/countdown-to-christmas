@@ -2,7 +2,7 @@ const myDate = new Date();
 const xmas = Date.parse("Dec 25, "+myDate.getFullYear()) 
 const today = Date.parse(myDate) 
 
-const daysToChristmas = Math.round((xmas-today)/(1000*60*60*24)) 
+const daysToChristmas = Math.round((xmas-today)/(1000*60*60*24)) +1
 
 
 if (daysToChristmas == 0) 
